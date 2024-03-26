@@ -1,0 +1,612 @@
+@font-face {
+  font-family: "brand";
+  src: url("./garamond-italic.bb453319.woff");
+}
+@font-face {
+  font-family: "brandi";
+  src: url("./ppneuemontreal-bold-webfont.06b92c94.woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: brandi;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#page-1 {
+  height: 210.5vh;
+  width: 100%;
+  position: relative;
+}
+#page-1 video {
+  height: 100%;
+  width: 100%;
+}
+
+.text {
+  height: 170px;
+  width: 300px;
+  /* background-color:red; */
+  position: absolute;
+  z-index: 9;
+  left: 80%;
+  top: -12%;
+  overflow: hidden;
+  mix-blend-mode: difference;
+}
+.text h4 {
+  color: white;
+  /* position: absolute; */
+  font-size: 60px;
+  z-index: 1;
+  text-transform: uppercase;
+  transition: all ease 0.4s;
+  line-height: 90px;
+}
+.text:hover h4 {
+  transform: translateY(100%);
+}
+
+.text-1 {
+  height: 60px;
+  width: 600px;
+  /* background-color:red; */
+  position: absolute;
+  z-index: 9;
+  left: 61%;
+  top: 12%;
+  overflow: hidden;
+  mix-blend-mode: difference;
+}
+
+.text-1 h4 {
+  color: white;
+  /* position: absolute; */
+  font-size: 60px;
+  z-index: 1;
+  text-transform: uppercase;
+  transition: all ease 0.4s;
+  line-height: 60px;
+}
+.text-1:hover h4 {
+  transform: translateY(-100%);
+}
+#page-1 h2 {
+  color: white;
+  position: absolute;
+  font-size: 57px;
+  top: 27%;
+  left: 62%;
+}
+#page-1 h2 span {
+  color: white;
+}
+#page-1 h3 {
+  color: white;
+  position: absolute;
+  top: 31%;
+  font-family: brand;
+  font-size: 75px;
+  text-transform: capitalize;
+  left: 50%;
+  font-weight: 500;
+}
+
+.img-1 {
+  position: absolute;
+  top: 51%;
+  left: 2%;
+  height: 610px;
+}
+
+.img-2 {
+  position: absolute;
+  top: 74%;
+  left: 40%;
+  height: 425px;
+  rotate: 3.5deg;
+}
+.img-3 {
+  position: absolute;
+  top: 71%;
+  left: 64%;
+  height: 425px;
+  rotate: -1deg;
+}
+
+.img-4 {
+  position: absolute;
+  top: 64%;
+  left: 86%;
+  height: 420px;
+  rotate: -1deg;
+}
+#page-2 {
+  height: 200vh;
+  width: 100%;
+  padding: 20px 20px;
+  position: relative;
+}
+/* .up 
+{
+    overflow: hidden;
+   
+    
+} */
+#page-2 h2 {
+  font-size: 3.7vw;
+  text-transform: uppercase;
+}
+#page-2 h2 span {
+  font-size: 3.7vw;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-left: 10px;
+}
+#page-2 h3 {
+  margin-top: 110px;
+  font-size: 4.6vw;
+  font-family: brand;
+  font-weight: 100;
+  text-align: center;
+  line-height: 90px;
+  overflow: hidden;
+}
+#page-2 h3 span {
+  font-size: 4.5vw;
+  /* text-transform: uppercase; */
+  display: inline-block;
+  margin-left: 10px;
+  font-family: brand;
+  font-weight: 500;
+}
+
+.goal-4 {
+  /* font-family:brand; */
+  height: 200px;
+  /* background-color: beige; */
+  overflow: hidden;
+}
+.goal-5 {
+  /* background-color: beige; */
+  margin-top: -120px;
+  overflow: hidden;
+}
+.goal-6 {
+  /* background-color: beige; */
+  margin-top: -130px;
+  overflow: hidden;
+}
+.box {
+  height: 450px;
+  width: 500px;
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  /* background-color:skyblue; */
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 10px;
+}
+.goal-1 {
+  /* background-color:beige; */
+  overflow: hidden;
+}
+.goal-2 {
+  /* background-color:beige; */
+  overflow: hidden;
+}
+.goal-3 {
+  /* background-color:beige; */
+  overflow: hidden;
+}
+.box h1 {
+  font-size: 12px;
+  color: gray;
+  font-weight: 800;
+  font-family: brand;
+}
+.box h4 {
+  font-size: 12px;
+  color: gray;
+  font-weight: 800;
+  font-family: brand;
+  margin-top: 60px;
+}
+.box h5 {
+  font-size: 12px;
+  color: gray;
+  font-weight: 800;
+  font-family: brand;
+  margin-top: 60px;
+}
+.box h6 {
+  font-size: 12px;
+  color: gray;
+  font-weight: 800;
+  font-family: brand;
+  margin-top: 60px;
+}
+.img-5 {
+  height: 350px;
+}
+.big {
+  position: absolute;
+  top: 85%;
+  font-size: 17vw;
+  text-transform: uppercase;
+}
+.img-6 {
+  position: absolute;
+  top: 70%;
+  left: 45%;
+}
+#page-3 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+  z-index: -1;
+}
+#left {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+#left img {
+  height: 97%;
+  width: 98%;
+  object-fit: cover;
+  object-position: center;
+  transition: all ease 0.5s;
+  margin-left: 10px;
+}
+#left:hover img {
+  width: 103%;
+  object-fit: cover;
+  object-position: center;
+  rotate: 1deg;
+}
+#right {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#right img {
+  height: 96%;
+  width: 98%;
+  object-fit: cover;
+  object-position: center;
+  transition: all ease 0.5s;
+}
+#right:hover img {
+  width: 102%;
+  object-fit: cover;
+  object-position: center;
+}
+.boox {
+  position: absolute;
+  top: 97%;
+  height: 30px;
+  width: 97%;
+  /* background-color:skyblue; */
+  padding: 10px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.boox h2 {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: brand;
+}
+.boox h5 {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: brand;
+}
+.boox-1 {
+  position: absolute;
+  top: 96%;
+  height: 30px;
+  width: 97%;
+  /* background-color:skyblue; */
+  padding: 0px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.boox-1 h2 {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: brand;
+}
+.boox-1 h5 {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: brand;
+}
+#page-4 {
+  height: 105vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+}
+#left-1 {
+  height: 100%;
+  width: 50%;
+  /* background-color: aquamarine; */
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+#right-1 {
+  height: 100%;
+  width: 50%;
+  /* background-color: aquamarine; */
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+#left-1 img {
+  height: 96%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  rotate: -1deg;
+  transition: all ease 0.5s;
+}
+#left-1:hover img {
+  width: 103%;
+  object-fit: cover;
+  object-position: center;
+  rotate: 1deg;
+}
+#right-1:hover img {
+  width: 103%;
+  object-fit: cover;
+  object-position: center;
+}
+#right-1 img {
+  height: 96%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: all ease 0.5s;
+}
+.below-1 {
+  position: absolute;
+  top: 96%;
+  height: 20px;
+  width: 97%;
+  /* background-color:skyblue; */
+  padding: 20px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.below-1 h2 {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: brand;
+}
+.below-1 h5 {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: brand;
+}
+.below {
+  position: absolute;
+  top: 96%;
+  height: 20px;
+  width: 97%;
+  /* background-color:skyblue; */
+  padding: 20px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.below h2 {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: brand;
+}
+.below h5 {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: brand;
+}
+
+.bet {
+  height: 400px;
+  top: 42%;
+  position: absolute;
+  z-index: 2;
+  left: 37%;
+}
+#page-5 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 20px 20px;
+}
+#page-5 h3 {
+  font-size: 3.5vw;
+  text-transform: uppercase;
+}
+#page-5 h4 {
+  font-family: brand;
+  font-size: 4.5vw;
+  font-weight: 50;
+  position: absolute;
+  top: 40%;
+  left: 53%;
+  text-align: center;
+  line-height: 11vh;
+}
+.goal-7 {
+  /* background-color:beige; */
+  overflow: hidden;
+}
+.goal-8 {
+  /* background-color:beige; */
+  overflow: hidden;
+}
+.goal-9 {
+  /* background-color:beige; */
+  overflow: hidden;
+}
+#page-5 h3 span {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#page-6 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.pg1 {
+  z-index: 1;
+  position: absolute;
+}
+.pg2 {
+  height: 600px;
+  position: absolute;
+  left: 17%;
+}
+.pg3 {
+  height: 470px;
+  position: absolute;
+  left: 46%;
+  object-fit: cover;
+  object-position: center;
+  top: 0%;
+  rotate: 20deg;
+  z-index: 1;
+}
+.pg4 {
+  height: 600px;
+  position: absolute;
+  left: 70%;
+  object-fit: cover;
+  object-position: center;
+  top: 10%;
+}
+#page-7 {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.pg5 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.pg6 {
+  height: 600px;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 35%;
+  z-index: 9;
+  left: 20%;
+}
+.pg7 {
+  height: 830px;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 56%;
+  z-index: 9;
+  left: 42%;
+}
+#page-8 {
+  height: 350vh;
+  width: 100%;
+  position: relative;
+  padding: 30px 0px;
+}
+.pg8 {
+  margin-top: 20px;
+  height: 300px;
+}
+#page-8 h4 {
+  left: 70%;
+  top: 5%;
+  position: absolute;
+  font-size: 4vw;
+}
+#page-8 h3 {
+  font-size: 5vw;
+  text-transform: capitalize;
+  font-family: brand;
+  font-weight: 100;
+  position: absolute;
+  top: 7.2%;
+  left: 56%;
+}
+.tex {
+  height: 260px;
+  /* background-color: antiquewhite; */
+  text-align: center;
+  line-height: 18vw;
+  overflow: hidden;
+  /* position: absolute; */
+  margin-top: 50px;
+}
+.tex h2 {
+  text-transform: uppercase;
+  font-size: 17vw;
+  transition: all ease 0.4s;
+  font-weight: 500;
+  color: #0f1624;
+}
+.tex:hover h2 {
+  transform: translateY(-100%);
+  transition: all ease 0.4s;
+  cursor: pointer;
+}
+
+.img-7 {
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 58%;
+  left: 7%;
+}
+.h5-1 {
+  height: 50px;
+  font-size: 4vw;
+  position: absolute;
+  top: 92%;
+  left: 2%;
+  text-transform: uppercase;
+  color: #0f1624;
+  /* background-color:antiquewhite; */
+  overflow: hidden;
+  transition: all ease 0.5s;
+  color: #0f1624;
+}
+.h5-1:hover h5 {
+  transform: translateY(-100%);
+  transition: all ease 0.5s;
+}
